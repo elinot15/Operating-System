@@ -1,0 +1,45 @@
+Parte 1: gli aspetti concettuali
+
+    Introduzione ai sistemi operativi: principi, struttura ed evoluzione storica
+    CPU Virtualization
+        La nozione di processo e le sue implementazioni
+        API per la gestione dei processi
+        Tecniche per lo scheduling dei processi
+    Memory Virtualization
+        La nozione di address space di un processo
+        Tecniche di rilocazione degli indirizzi
+        La segmentazione
+        Paginazione e Segmentazione paginata
+        Gestione dello swap space
+        Il memory Manager
+    Introduzione alla programmazione concorrente
+        I thread: nozione e implementazione
+        API per la gestione dei thread
+        Il problema della mutua esclusione e sue soluzioni
+            I lock
+            Le variabili condizione
+            I semafori
+        Il problema dei 5 filosofi
+        Il Deadlock e le sue soluzioni
+    La gestione dei dispositivi di I/O
+        Dispositivi di I/O: principi di funzionamento
+        Principi di funzionamento di un hard disk
+        I dischi RAID
+    Il file system
+        File & Directory
+        La consistenza del file systema: FSCK e Journaling
+        SSD (opzionale) 
+
+
+
+Parte 2: gli aspetti implementativi
+
+    Introduzione all'architettura IA/32
+    GNU Assembler Language
+    Eccezioni e Interrupt su IA/32
+    LA gestione della memoria su IA/32
+    Analisi e implementazione di un bootloader
+    Analisi e implementazione di un gestore della memoria
+    Analisi e implementazione di un gestore di processi
+    Analisi e implementazione delle routine di risposta a Interrupt e Eccezioni
+    Implementazione di alcune syscall elementari 
